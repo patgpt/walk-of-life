@@ -1,6 +1,7 @@
 import { ContactForm } from "@/components/forms/ContactForm"
 import SocialIcons from "@/components/SocialIcons/SocialIcons";
 import Link from "next/link";
+import React from "react";
 
 
 const Page = () => {
