@@ -3,7 +3,7 @@ import SocialIcons from "@/components/SocialIcons/SocialIcons";
 import Link from "next/link";
 
 
-export const Page = () => {
+const Page = () => {
     return (
         <div className="mx-auto px-4 py-8 text-base-content bg-base-200">
             <div className="max-w-7xl mx-auto">
