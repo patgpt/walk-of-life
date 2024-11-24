@@ -32,7 +32,7 @@ const CommunityPage: React.FC = () => {
             <section className="p-6 bg-base-200 rounded-lg shadow-md">
                 <h2 className="text-4xl font-bold mb-6">Welcome to Our Community</h2>
                 <p className="text-lg">
-                    The Walk of Life isn't just an individual journey—it's a collective experience deeply enriched by the community around us. Whether you’re looking to share your story, connect with others, or simply learn more about the healing process, our community is here to welcome you.
+                    The Walk of Life isn&apos;t just an individual journey—it&apos;s a collective experience deeply enriched by the community around us. Whether you’re looking to share your story, connect with others, or simply learn more about the healing process, our community is here to welcome you.
                 </p>
                 <SocialIcons />
             </section>
@@ -88,7 +88,7 @@ const CommunityPage: React.FC = () => {
                         <time className="text-xs opacity-50 ml-2">09:17</time>
                     </div>
                     <div className="chat-bubble">
-                        Hi Emma! Take a deep breath and remember, it's okay to take things one step at a time. We’re all here for you!
+                        Hi Emma! Take a deep breath and remember, it&apos;s okay to take things one step at a time. We’re all here for you!
                     </div>
                     <div className="chat-footer opacity-50">Seen at 09:17</div>
                 </div>
@@ -116,7 +116,7 @@ const CommunityPage: React.FC = () => {
                                 />
                             </div>
                             <blockquote className="text-lg text-center m-4">
-                                "Joining Walks and Talks Fridays has been a life-changing experience. I've never felt more supported."
+                                &quot;Joining Walks and Talks Fridays has been a life-changing experience. I&apos;ve never felt more supported.&quot;
                             </blockquote>
                             <div className="text-sm text-center text-gray-600">- Emma, Community Member</div>
                         </div>
@@ -137,7 +137,7 @@ const CommunityPage: React.FC = () => {
                                 />
                             </div>
                             <blockquote className="text-lg text-center m-4">
-                                "The healing circles have been such a powerful tool for processing grief and finding a path forward."
+                                &quot;The healing circles have been such a powerful tool for processing grief and finding a path forward.&quot;
                             </blockquote>
                             <div className="text-sm text-center text-gray-600">- John, Community Member</div>
                         </div>

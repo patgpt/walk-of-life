@@ -45,7 +45,7 @@ export default function AboutPage() {
               <div className="carousel w-full">
                 <div id="testimonial1" className="carousel-item w-full p-4">
                   <blockquote className="italic">
-                    "The Walk of Life helped me reconnect with my family's past and understand the hardships they endured. It provided me with a sense of closure and connection that I never thought possible."
+                    The Walk of Life helped me reconnect with my family&apos;s past and understand the hardships they endured. It provided me with a sense of closure and connection that I never thought possible.
                   </blockquote>
                 </div>
               </div>

@@ -12,7 +12,7 @@ export const Page = () => {
                     <div className="card bg-base-100 shadow-xl md:col-span-2 hover:shadow-2xl transition-shadow">
                         <div className="card-body">
                             <h1 className="card-title text-4xl">Contact Us</h1>
-                            <p>We'd love to hear from you. Whether you have questions about The Walk of Life, want to participate in our workshops, or are interested in bringing this healing journey to your community.</p>
+                            <p>We&apos;d love to hear from you. Whether you have questions about The Walk of Life, want to participate in our workshops, or are interested in bringing this healing journey to your community.</p>
                         </div>
                     </div>
 

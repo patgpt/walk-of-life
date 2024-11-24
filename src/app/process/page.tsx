@@ -28,7 +28,7 @@ export default function ProcessPage() {
                                 <li className="mb-2"><strong>Connect with their heritage</strong>: By understanding the experiences of ancestors,
                                     participants gain a deeper appreciation for the challenges and triumphs that have shaped their family and personal history.</li>
                                 <li className="mb-2"><strong>Process loss and grief</strong>: The Walk of Life offers a safe space to acknowledge
-                                    and process the losses experienced throughout one's life, providing a pathway to emotional recovery.</li>
+                                    and process the losses experienced throughout one&apos;s life, providing a pathway to emotional recovery.</li>
                                 <li className="mb-2"><strong>Build a support network</strong>: Participants share their stories with others in a
                                     supportive group setting, fostering a sense of belonging and mutual understanding.</li>
                             </ul>
