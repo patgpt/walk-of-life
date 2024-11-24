@@ -18,4 +18,21 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--background) 0%, var(--background) 100%);
+  background-attachment: fixed;
+}
+
+.skip-link {
+  @apply bg-primary text-white p-4 absolute -translate-y-full focus:translate-y-0 transition-transform;
+}
+
+@layer utilities {
+  .glass-effect {
+    @apply backdrop-blur-md bg-base-100/60 border border-base-content/10;
+  }
+  
+  .glass-effect-dark {
+    @apply backdrop-blur-md bg-neutral-focus/30 border border-neutral-content/10;
+  }
 }
