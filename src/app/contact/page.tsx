@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export const Page = () => {
     return (
-        <div className="mx-auto px-4 py-8">
+        <div className="mx-auto px-4 py-8 text-base-content bg-base-200">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {/* Main heading card */}

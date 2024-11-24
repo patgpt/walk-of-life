@@ -4,10 +4,10 @@ import SocialIcons from '@/components/SocialIcons/SocialIcons';
 
 export default function AboutPage() {
   return (
-    <div className="mx-auto px-4 py-8" >
-      <main className="max-w-7xl mx-auto">
+    <div className="mx-auto px-4 py-8 text-base-content" >
+      <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[minmax(200px,auto)]">
-          {/* Main heading card - spans 3 columns */}
+          {/* div heading card - spans 3 columns */}
           <div className="card bg-base-100 shadow-xl md:col-span-3 hover:shadow-2xl transition-shadow">
             <div className="card-body">
               <h1 className="card-title text-4xl">About The Walk of Life</h1>
@@ -96,7 +96,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

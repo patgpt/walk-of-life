@@ -27,7 +27,7 @@ const CommunityPage: React.FC = () => {
     }, []);
 
     return (
-        <main className="container mx-auto py-16 px-4 lg:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="py-16 mx-8 lg:px-0 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-base-content bg-base-200">
             {/* Welcome Section */}
             <section className="p-6 bg-base-200 rounded-lg shadow-md">
                 <h2 className="text-4xl font-bold mb-6">Welcome to Our Community</h2>
@@ -159,7 +159,7 @@ const CommunityPage: React.FC = () => {
                     <button className="btn btn-primary">Join the Community Now</button>
                 </Link>
             </section>
-        </main>
+        </div>
     );
 };
 

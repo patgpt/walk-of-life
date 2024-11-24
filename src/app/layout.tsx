@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-full`}>
         <Header />
-        <main className="max-w-none prose-base-content min-h-full">
+        <main className="max-w-none prose-base-content min-h-full bg-base-200">
           {children}
         </main>
         <Footer />

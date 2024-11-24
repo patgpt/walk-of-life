@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function ProcessPage() {
     return (
-        <div className="container mx-auto px-4 py-8">
-            <main className="prose prose-lg max-w-4xl mx-auto">
-                <article className="space-y-8">
-                    <div className="card bg-base-100 shadow-xl">
-                        <div className="card-body">
+        <div className="px-4 py-8 bg-base-200">
+            <main className="max-w-6xl mx-auto text-base-content">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-min">
+                    <div className="card bg-base-100 shadow-xl md:col-span-2 lg:col-span-3">
+                        <div className="card-body text-content">
                             <h1 className="card-title text-4xl">The Walk of Life</h1>
                             <p className="text-lg mb-6">
                                 The Walk of Life is a community-driven healing tool that helps individuals connect with their ancestors,
@@ -17,8 +17,8 @@ export default function ProcessPage() {
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 shadow-xl">
-                        <div className="card-body">
+                    <div className="card bg-base-100 shadow-xl lg:col-span-2">
+                        <div className="card-body text-content">
                             <h2 className="card-title text-3xl">The Walk of Life as a Therapeutic Tool</h2>
                             <p className="mb-6">
                                 The Walk of Life is more than just a symbolic journey; it is a therapeutic experience that encourages
@@ -35,7 +35,22 @@ export default function ProcessPage() {
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 shadow-xl">
+                    <div className="card bg-base-100 shadow-xl row-span-2">
+                        <div className="card-body">
+                            <h2 className="card-title text-3xl">Join Our Workshops</h2>
+                            <p className="mb-6">
+                                We invite you to participate in our regular Walk of Life workshops. These sessions are held in a variety of
+                                settings—community centers, outdoor spaces, and online—to provide everyone an opportunity to join, regardless of location.
+                            </p>
+                            <div className="card-actions justify-end mt-6">
+                                <button className="btn btn-primary btn-lg">
+                                    Register for a Workshop
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="card bg-base-100 shadow-xl md:col-span-2">
                         <div className="card-body">
                             <h2 className="card-title text-3xl">The Healing Process</h2>
                             <p className="mb-6">
@@ -50,22 +65,7 @@ export default function ProcessPage() {
                             </p>
                         </div>
                     </div>
-
-                    <div className="card bg-base-100 shadow-xl">
-                        <div className="card-body">
-                            <h2 className="card-title text-3xl">Join Our Workshops</h2>
-                            <p className="mb-6">
-                                We invite you to participate in our regular Walk of Life workshops. These sessions are held in a variety of
-                                settings—community centers, outdoor spaces, and online—to provide everyone an opportunity to join, regardless of location.
-                            </p>
-                            <div className="card-actions justify-end mt-6">
-                                <button className="btn btn-primary btn-lg">
-                                    Register for a Workshop
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </article>
+                </div>
             </main>
         </div>
     );
