@@ -6,7 +6,7 @@ import SocialIcons from '@/components/SocialIcons/SocialIcons';
 
 const CommunityPage: React.FC = () => {
     const carouselRef = useRef<HTMLDivElement>(null);
-
+    // okay to use ref here because we're not using state
     useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (carouselRef.current) {
