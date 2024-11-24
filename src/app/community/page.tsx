@@ -2,8 +2,6 @@
 import React, { useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import 'tailwindcss/tailwind.css';
-import 'daisyui';
 import SocialIcons from '@/components/SocialIcons/SocialIcons';
 
 const CommunityPage: React.FC = () => {
